@@ -25,14 +25,35 @@
     </div>
 
     <!-- MAIN CONTENT -->
-<!-- Side navigation -->
-<div class="sidenav">
-  <a href="#about">Stemma</a>
-  <a href="#geography">География поиска</a>
-  <a href="#team">О нас</a>
-  <a href="#start">С чего начать</a>
-  <a href="#contacts">Контакты</a>
-</div>
+
+    <!-- Side navigation -->
+    <div class="sidenav" id="sidenav">
+        <a href="#about">Stemma</a>
+        <a href="#geography">География поиска</a>
+        <a href="#team">О нас</a>
+        <a href="#start">С чего начать</a>
+        <a href="#contacts">Контакты</a>
+    </div>
+
+    <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+ 
+    // Get the navbar
+    var navbar = document.getElementById("sidenav");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">

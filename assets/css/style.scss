@@ -158,9 +158,9 @@ h5 { font-size: 22px; }
 
 h6 { font-size: 16px; }
 
-p { margin: 10px 0 15px 0; }
+p { margin: 15px 0 10px 0; }
 
-footer p { color: #f2f2f2; }
+footer p { color: #f2f2f2; margin: 1px 0 1px 0; }
 
 a { text-decoration: none; color: #0F79D0; text-shadow: none; transition: color 0.5s ease; transition: text-shadow 0.5s ease; -webkit-transition: color 0.5s ease; -webkit-transition: text-shadow 0.5s ease; -moz-transition: color 0.5s ease; -moz-transition: text-shadow 0.5s ease; -o-transition: color 0.5s ease; -o-transition: text-shadow 0.5s ease; -ms-transition: color 0.5s ease; -ms-transition: text-shadow 0.5s ease; }
 
@@ -213,7 +213,7 @@ Full-Width Styles
 
 .header { position: fixed; width: 100%; top: 0; color: black; background-color: black; }
 
-.inner-header { position: relative; max-width: 1216px; padding: 20px 10px; margin: 0 auto; }
+.inner-header { position: relative; max-width: 1216px; padding: 30px 10px; margin: 0 auto; }
 
 #project_title { margin: 0; color: #fff; font-size: 42px; font-weight: 700; text-shadow: #111 0px 0px 10px; top: 50%; left: 50%; transform: translate(-50%, -50%); position: absolute; }
 
@@ -229,11 +229,13 @@ Full-Width Styles
 
 .tar_download_link:hover { background: url(../images/sprite_download.png) no-repeat top right; }
 
-#main_content_wrap { background: #f2f2f2; border-top: 1px solid #111; border-bottom: 1px solid #111; background-image: url("../images/without-borders_1216x1600.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: auto; background-position: center top;}
+#main_content_wrap { background: #f2f2f2; border-top: 1px solid #111; border-bottom: 1px solid #111; background-image: url("../images/without-borders_1216x1600.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: auto; background-position: center 75px; word-break: break-all; }
 
-#main_content { padding-top: 70px; padding-bottom: 430px; }
+#main_content { padding-top: 70px; padding-bottom: 510px; }
 
-#footer_wrap { background: #212121; }
+.footer { position: relative; width: 100%; bottom: 0; color: black; background-color: #212121; }
+
+.inner-footer { position: relative; max-width: 960px; padding: 10px 10px; margin: 0 auto; }
 
 /*******************************************************************************
 Small Device Styles

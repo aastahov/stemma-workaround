@@ -58,7 +58,7 @@
 </h1>
 
 <h1><details>
-<summary>Анктета.</summary>
+<summary>Анкета.</summary>
 </details>
 </h1>
 

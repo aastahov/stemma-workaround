@@ -27,7 +27,7 @@ layout: default
 </h1>
 
 <h1><details>
-<summary>“Stemma” -yhteisö: keitä olemme ja mitä teemme.</summary>
+<summary>“Stemma” - yhteisö: keitä olemme ja mitä teemme.</summary>
 <h5><p>“Stemma” on kokeneiden tutkijoiden ryhmä, olemme monien vuosien ajan tutkineet ammattimaisesti arkistoja ja tehneet sukututkimuksia. Kokemuksemme arkistotyöstä ja löytyneen tiedon analysointimenetelmämme mahdollistavat sen, että valmistamme teitä varten sukunne historian mahdollisimman tarkan kuvauksen. Emme rajoita tutkimuksiamme vain kuivien päivämäärien ja tärkeimpien tapahtumien etsimiseen, vaan yritämme löytää mahdollisimman monipuolista tietoa sukulaisistanne: tutkimme talonkirjoja, pankkien laina- ja sijoitusasiakirjoja, tuomioistuinten päätöksiä, sairaskertomuksia, omaisuustodistuksia, opiskelutodistuksia, asiakirjoja armeijasta, kauppiaskiltoista sekä käsityöläisyhdistyksistä. Kun yhdistämme tiedot kaikista mahdollisista lähteistä, saamme ihmisen elämästä tarkan kuvan ja pystymme “elvyttämään” hänen muistonsa.</p>
 </h5>
 </details>
@@ -61,3 +61,5 @@ layout: default
 </h5>
 </details>
 </h1>
+
+<h1><a href="../assets/files/form-fin.docx" download>📄Kyselylomake täyttöä varten</a></h1>

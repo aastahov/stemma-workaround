@@ -154,7 +154,7 @@ h3 { font-size: 24px; }
 
 h4 { font-size: 21px; }
 
-h5 { font-size: 22px; }
+h5 { font-size: 22px; text-shadow: white 0px 0px 10px; }
 
 h6 { font-size: 16px; }
 
@@ -229,13 +229,13 @@ Full-Width Styles
 
 .tar_download_link:hover { background: url(../images/sprite_download.png) no-repeat top right; }
 
-#main_content_wrap { background: #f2f2f2; border-top: 1px solid #111; border-bottom: 1px solid #111; background-image: url("../images/without-borders_2433x3200-white.jpg"); background-repeat: no-repeat; background-attachment: scroll; background-size: 1920px 3100px; background-position: center 75px; height: 3100px; }
+#main_content_wrap { background: #f2f2f2; border-top: 1px solid #111; border-bottom: 1px solid #111; background-image: url("../images/map.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center 55px; }
 
-#main_content { padding-top: 70px; padding-bottom: 210px; }
+#main_content { padding-top: 75px; padding-bottom: 420px; }
 
 .footer { position: relative; width: 100%; bottom: 0; color: black; background-color: #212121; }
 
-.inner-footer { position: relative; max-width: 960px; padding: 10px 10px; margin: 0 auto; }
+.inner-footer { position: relative; max-width: 960px; padding: 10px 330px; margin: 0 auto; }
 
 *:focus {outline:none !important}
 /*******************************************************************************

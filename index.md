@@ -57,4 +57,4 @@
 </details>
 </h1>
 
-<h1><a href="assets/files/form-ru.docx" download>📄Анкета для заполения</a></h1>
+<h1><a href="assets/files/form-ru.docx" download>📄Анкета для заполнения</a></h1>
